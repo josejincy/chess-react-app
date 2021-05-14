@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 28px 37px;
+    text-align: center;
+    cursor: pointer;
+}
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+    background: grey;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+}
+
+// .table_cell {
+//     background: grey;
+    
+// }
+// .table_cell span.inner_content {
+//     visibility: hidden;
+//     color:black;
+
+// }
+// .table_cell span.content_visible {
+//     visibility: visible;
+//     color:black;
+
+// }
+// button {
+//     margin: inherit;
+// }
